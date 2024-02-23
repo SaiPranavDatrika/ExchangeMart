@@ -1,11 +1,16 @@
 from pyravendb.store import document_store
+import os
+from flask import Flask,request ,render_template , jsonify
+from flask_cors import CORS
 
+app = Flask(__name__)
+CORS(app)
 # Set up RavenDB document store
 class USERS:
-     def __init__(self,username,password,address) -> None:
+     def __init__(self,username,password,email) -> None:
           self.username=username
           self.password=password
-          self.address=address
+          self.email=email
 
 class Items:
       def __init__(self,Itemid,productname,productprice) -> None:
@@ -23,14 +28,65 @@ class Shares:
              self.Itemshared=Itemshared
              self.itemreference=itemreference 
 
-store = document_store.DocumentStore(urls=["https://a.exchangemart.ravendb.community:8080"], database="Exchangemart")
+certificate="/Users/sunilachandu/Desktop/ExchangeMart/free.exchangemart.client.certificate/free.exchangemart.client.certificate.pfx"
+cloud_cert="/Users/sunilachandu/Desktop/ExchangeMart/free.exchangemart.client.certificate/PEM/free.exchangemart.client.certificate.pem"
+pass_key="71CC4A8860EB5292567D33763E48145"
+database_name="Exchangemart"
+client_cert = {
+    "cert_file": os.path.abspath(cloud_cert),
+    "password": "71CC4A8860EB5292567D33763E48145"
+}
+urls=["https://a.free.exchangemart.ravendb.cloud"]
+
+store = document_store.DocumentStore(urls,database_name,cloud_cert)
+
 store.initialize()
 session = store.open_session()
 
-Users=USERS("SaiPranav",12345,"San Marcos, Texas, USA")
-session.store(Users)
-session.save_changes()
-session.close()
+@app.route("/members")
+def members():
+    print("pranav")
+    return ({"name":["pranav","LOVE"]})
+
+@app.route('/process', methods=['POST'])
+def process():
+      data = request.get_json()
+      name=data.get('name')
+      email=data.get('email')
+      password=data.get('password')
+    # Process the data or perform any backend tasks
+    # ...
+
+      # Return a response back to the frontend
+      users=USERS(name,password,email)
+      session.store(users)
+      session.save_changes()
+
+      response = {
+        "status": "success",
+        "message": "Data received successfully!"
+      }
+    
+      return jsonify(response)
+
+@app.route('/validate', methods=['POST'])
+def validate():
+      data=request.get_json()
+      email=data.get('email')
+      password=data.get('password')
+      query = session.query(USERS).where_equals("email", email)
+      print(query)
+      
+      if query and query.password == password:
+        return jsonify({'valid': True}), 200
+      else:
+        return jsonify({'valid': False}), 401
+
+        
+if __name__ == '__main__':
+    app.run(debug=True,port=5000)
+
+
 
 # Perform operations with the document store
 # For example, store.open_session(), store.execute_index(), etc.

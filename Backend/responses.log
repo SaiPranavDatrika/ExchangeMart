@@ -1,0 +1,553 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.exchangemart.ravendb.community:8080
+INFO:root:[Errno 2] No such file or directory: '/Users/sunilachandu/Desktop/ExchangeMart/Backend/topology_files/337398791cdcc014bc84774fd8b6e32a.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.exchangemart.ravendb.community:8080', ConnectionError(MaxRetryError("HTTPSConnectionPool(host='a.exchangemart.ravendb.community', port=8080): Max retries exceeded with url: /topology?name=Exchangemart (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x105ebe820>: Failed to establish a new connection: [Errno 60] Operation timed out'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.exchangemart.ravendb.community:8080
+INFO:root:[Errno 2] No such file or directory: '/Users/sunilachandu/Desktop/ExchangeMart/Backend/topology_files/337398791cdcc014bc84774fd8b6e32a.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.exchangemart.ravendb.community:8080', ConnectionError(MaxRetryError("HTTPSConnectionPool(host='a.exchangemart.ravendb.community', port=8080): Max retries exceeded with url: /topology?name=Exchangemart (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101d4c820>: Failed to establish a new connection: [Errno 60] Operation timed out'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.exchangemart.ravendb.community:8080
+INFO:root:[Errno 2] No such file or directory: '/Users/sunilachandu/Desktop/ExchangeMart/Backend/topology_files/337398791cdcc014bc84774fd8b6e32a.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.exchangemart.ravendb.community:8080', ConnectionError(MaxRetryError("HTTPSConnectionPool(host='a.exchangemart.ravendb.community', port=8080): Max retries exceeded with url: /topology?name=Exchangemart (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10398f820>: Failed to establish a new connection: [Errno 60] Operation timed out'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:root:[Errno 2] No such file or directory: '/Users/sunilachandu/Desktop/ExchangeMart/Backend/topology_files/262510d554da2db8c729fd9a68be3b60.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.free.exchangemart.ravendb.cloud', SSLError(MaxRetryError("HTTPSConnectionPool(host='a.free.exchangemart.ravendb.cloud', port=443): Max retries exceeded with url: /topology?name=Exchangemart (Caused by SSLError(SSLError(9, '[SSL] PEM lib (_ssl.c:4044)')))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:root:[Errno 2] No such file or directory: '/Users/sunilachandu/Desktop/ExchangeMart/Backend/topology_files/262510d554da2db8c729fd9a68be3b60.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.free.exchangemart.ravendb.cloud', SSLError(MaxRetryError("HTTPSConnectionPool(host='a.free.exchangemart.ravendb.cloud', port=443): Max retries exceeded with url: /topology?name=Exchangemart (Caused by SSLError(SSLError(9, '[SSL] PEM lib (_ssl.c:4044)')))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 403 None
+INFO:root:[Errno 2] No such file or directory: '/Users/sunilachandu/Desktop/ExchangeMart/Backend/topology_files/262510d554da2db8c729fd9a68be3b60.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.free.exchangemart.ravendb.cloud', AuthorizationException('Forbidden access to Exchangemart@https://a.free.exchangemart.ravendb.cloud, a certificate is required.GET /topology?name=Exchangemart'))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/docs?&id=USER%2F1-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/docs?&id=USER%2F1-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/docs?&id=USER%2F1-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/docs?&id=USER%2F1-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/docs?&id=USER%2F1-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 12:18:32] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 12:18:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 13:51:28] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 13:51:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:57:10] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:58:30] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:58:31] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:58:32] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:58:38] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:58:43] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:58:48] "GET /members HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 14:59:10] "[31m[1mGET /LoginForm/signup/process HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:28:24] "[33mGET /LoginForm HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:31:09] "OPTIONS /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:40:12] "OPTIONS /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:40:12] "POST /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+ERROR:werkzeug:127.0.0.1 - - [22/Feb/2024 23:48:08] code 400, message Bad request version ("\x10Q;#E!'B\x17\x9e÷¸(\x07ó\x00v\x13\x02\x13\x03\x13\x01À/À+À0À,\x00\x9eÀ'\x00gÀ(\x00k\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00¢À®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$\x00jÀ#\x00@À")
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:48:08] "[35m[1m\x16\x03\x01\x01j\x01\x00\x01f\x03\x03q¢ªu¥îÌêp®ëGØ¡Í\x9f\x06;ÈÊ\x0cýæ\x9cR\x0dWs`T{è êT§d\x10º-\x03\x0cOþ{\x19×-U \x10Q;#E!'B\x17\x9e÷¸(\x07ó\x00v\x13\x02\x13\x03\x13\x01À/À+À0À,\x00\x9eÀ'\x00gÀ(\x00k\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00¢À®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$\x00jÀ#\x00@À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:48:26] "OPTIONS /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:48:26] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:48:50] "OPTIONS /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:48:50] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:50:09] "OPTIONS /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:50:09] "POST /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:56:28] "OPTIONS /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 23:56:30] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 00:00:51] "OPTIONS /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 00:00:52] "POST /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:02:09] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:02:09] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:02:39] "OPTIONS /process HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /databases/Exchangemart/hilo/next?tag=USER&lastBatchSize=0&lastRangeAt=0001-01-01%2000:00:00&identityPartsSeparator=/&lastMax=0 HTTP/1.1" 201 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "POST /databases/Exchangemart/bulk_docs HTTP/1.1" 201 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:02:40] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:03:16] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:03:16] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:00] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:00] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:34] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:34] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:37] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:37] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:37] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:04:38] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:07:07] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:07:07] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:10:11] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:10:11] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:10:49] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:10:49] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:18:22] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:18:22] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/sunilachandu/Desktop/ExchangeMart/Backend/Insp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-082-937
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:19:31] "OPTIONS /validate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2024 01:19:31] "[35m[1mPOST /validate HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.free.exchangemart.ravendb.cloud:443
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://a.free.exchangemart.ravendb.cloud:443 "GET /topology?name=Exchangemart HTTP/1.1" 200 None
